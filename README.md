@@ -22,19 +22,19 @@
 
 ### vue系列
 
-命令 | 描述 | 代码示例 
-- | :-: | -: 
-vuecc | vue文件模板 | [点击链接](#vuecc)
+| 命令 | 描述 | 代码示例 |
+| - | :-: | -: |
+| vuecc | vue文件模板 | [点击链接](#vuecc) |
  
 
-> <span id="ccc">ccc</span>
+<span style="font-size: 16px; font-weight: 600" id="ccc">ccc</span>
 
 ```
 console.log("")
 
 ```
 
-> <span id="forcc">forcc</span>
+<span style="font-size: 16px; font-weight: 600" id="forcc">forcc</span>
 
 ```
 for(let i = 0; i < 10; i++) {
@@ -42,7 +42,7 @@ for(let i = 0; i < 10; i++) {
 }
 ```
 
-> <span id="middleimgcc">middleimgcc</span>
+<span style="font-size: 16px; font-weight: 600" id="middleimgcc">middleimgcc</span>
 
 ```
 for(let i = 0; i < 10; i++) {
@@ -50,7 +50,7 @@ for(let i = 0; i < 10; i++) {
 }
 ```
 
-> <span id="modulecc">modulecc</span>
+<span style="font-size: 16px; font-weight: 600" id="modulecc">modulecc</span>
 
 ```
 /* parent */
@@ -64,7 +64,7 @@ max-width: 100%;
 max-height: 100%;
 ```
 
-> <span id="textovercc">textovercc</span>
+<span style="font-size: 16px; font-weight: 600" id="textovercc">textovercc</span>
 
 ```
 overflow: hidden;
@@ -72,7 +72,7 @@ text-overflow: ellipsis;
 white-space: nowrap;
 ```
 
-> <span id="vuecc">vuecc</span>
+<span style="font-size: 16px; font-weight: 600" id="vuecc">vuecc</span>
 
 ```
 <template>
