@@ -7,18 +7,18 @@
 
 ### javascript系列
 
-命令 | 描述 | 代码示例 
-- | :-: | -: 
-ccc | 控制台打印 | [点击链接](#ccc)
-forcc | for循环 | [点击链接](#forcc)
-modulecc | es6模块定义 | [点击链接](#modulecc)
+| 命令 | 描述 | 代码示例 |
+| - | :-: | -: |
+| ccc | 控制台打印 | [点击链接](#ccc) |
+| forcc | for循环 | [点击链接](#forcc) |
+| modulecc | es6模块定义 | [点击链接](#modulecc) |
 
 ### styleless样式表系列
 
-命令 | 描述 | 代码示例 
-- | :-: | -: 
-middleimgcc | 图片自适应<br>水平垂直居中 | [点击链接](#middleimgcc)
-textovercc | 文本超出省略号显示 | [点击链接](#textovercc)
+| 命令 | 描述 | 代码示例 |
+| - | :-: | -: |
+| middleimgcc | 图片自适应<br>水平垂直居中 | [点击链接](#middleimgcc) |
+| textovercc | 文本超出省略号显示 | [点击链接](#textovercc) |
 
 ### vue系列
 
