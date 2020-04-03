@@ -1,0 +1,33 @@
+{
+  "name": "vscode-snippet",
+  "version": "1.0.0",
+  "description": "vscode snippet 最佳实践",
+  "main": "./test/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "deploy:mac": "cp ./snippet_file/* ~/Library/Application\\ Support/Code/User/snippets",
+    "clear:mac": "rm ~/Library/Application\\ Support/Code/User/snippets/*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melunar/__IDE_snippet.git"
+  },
+  "keywords": [
+    "vscode",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "author": "haoyong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melunar/__IDE_snippet/issues"
+  },
+  "homepage": "https://github.com/melunar/__IDE_snippet#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

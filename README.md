@@ -1,7 +1,24 @@
 # __IDE_snippet
 适配VS Code代码编辑器 snippet 代码片段收集
 
-> 使用方法: 下载该项目,拷贝`snippet_file`目录下所有文件到本地磁盘`C:\Users\你的名字\AppData\Roaming\Code\User\snippets`目录下, 不需重启, 直接使用
+> 使用方法: 下载该项目,拷贝`snippet_file`目录下所有文件到本地磁盘  
+【windows：`C:\Users\你的名字\AppData\Roaming\Code\User\snippets`】  
+【macOs：`~/Library/Application\ Support/Code/User/snippets/test.code-snippets`】目录下, 不需重启, 直接使用
+
+## macOS：命令部署方法
+
+`git clone git@github.com:melunar/__IDE_snippet.git`
+
+`cd ./__IDE_snippet`
+
+`npm i // 初始化环境`
+
+`git pull origin master // 如果需要 更新仓库`  
+
+`npm run clear:mac // 如果需要 先清除本地snippet（慎重）`
+
+`npm run deploy:mac // 同步到本地snippet`
+
 
 ## 命令手册
 
