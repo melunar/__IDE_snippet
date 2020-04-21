@@ -7,11 +7,10 @@
 	// Placeholders with the same ids are connected.
     // Example:
 	"console log": {
-		"scope": "javascript,typescript",
+		// "scope": "",
 		"prefix": "ccc",
 		"body": [
-			"console.log('$1');",
-			"$2"
+			"console.log('$1')$2"
 		],
 		"description": "Log output to console"
 	}
