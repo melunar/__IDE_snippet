@@ -1,64 +1,53 @@
-// local test
-console.log('abc');
-for(let i = 0; i < 1; i++) {
-  
+import Taro, {
+  Component,
+  // showLoading,
+  // showToast,
+  // showModal,
+  // hideLoading
+} from '@tarojs/taro'
+import {
+  View,
+  // Text,
+  // Block,
+  // Image,
+  // Button,
+  // CoverView,
+  // CoverImage,
+  // ScrollView
+} from '@tarojs/components'
+import { connect } from '@tarojs/redux'
+import './index.scss'
+
+@connect(({}) => ({
+  //
+}))
+export default class MyPage extends Component {
+  constructor (props) {
+    super(props)
+    this.state = {}
+  }
+  // onload onlunch
+  componentWillMount () {
+    // console.log('@@ this.router.params', this.router.params)
+    // const { dispatch } = this.props
+  }
+  // onshow
+  componentDidShow () {}
+  // function
+  myHandler () {}
+  // pageConfig
+  // config = {
+    //   // navigationStyle: 'custom',
+    //   navigationBarTitleText: 'title',
+    //   navigationBarTextStyle: 'black',
+    //   navigationBarBackgroundColor: '#fff'
+  // }
+  // render
+  render () {
+    return (
+      <View className>
+        1111
+    </View>
+    )
+  }
 }
-console.log('a')
-<template>
-  <div class=''>
-    div.main
-  </div>
-</template>
-<script>
-export default {
-  name: '',
-  components: {},
-  mixins: [],
-  props: {
-    //name: { type: Array, default: () => [] }
-  },
-  data: function() {
-    return {}
-  },
-  computed: {},
-  created: function() {},
-  mounted: function() {},
-  beforeDestroy: function() {},
-  watch: {},
-  methods: {}
-}
-</script>
-<style scoped lang='scss'>
-//@import '../less/variables.less'
-//@import '../less/sprite.less'
-. {}
-</style>
-<template>
-  <div class=''>
-    div.main
-  </div>
-</template>
-<script>
-export default {
-  name: '',
-  components: {},
-  mixins: [],
-  props: {
-    //name: { type: Array, default: () => [] }
-  },
-  data: function() {
-    return {}
-  },
-  computed: {},
-  created: function() {},
-  mounted: function() {},
-  beforeDestroy: function() {},
-  watch: {},
-  methods: {}
-}
-</script>
-<style scoped lang='scss'>
-//@import '../less/variables.less'
-//@import '../less/sprite.less'
-. {}
-</style>
