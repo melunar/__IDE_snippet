@@ -11,7 +11,7 @@
 		"prefix": "protomessage",
 		"body": [
 			// TSTA-Request TSTA-Response
-			"message TSTA$1Response {",
+			"message TSTA$1Request {",
 			"\t$2",
 			"}",
 			"message TSTA$1Response {",
